@@ -1,5 +1,5 @@
-# expense-profile-predictor
-expense-profile predictor using machine learning.
+# expense-profile-clustering
+clustering different expense profiles.
 
 # Data
 Data is purely artificial.
@@ -10,10 +10,6 @@ In order to prep the data for classification, I first have to prepare the data. 
 1. Normalize the data
 2. Use KMeans @k=10, iter=15
 
-# Creating the Classifier
-For the classifier, I split the KMeans results for training and testing and then trained it without much data prep aside from splitting the data. I used Random Forest algorithm for the Classifier.
-
 # Technologies used
 1. R for analyzing data and experimenting
-2. Apache Spark (pyspark) for data prep and creating the actual models and their packages
-3. IBM Watson Machine Learning for productizing the models to the cloud
+2. Apache Spark (pyspark) for data prep and creating the actual models and their package
